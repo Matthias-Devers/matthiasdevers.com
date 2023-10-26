@@ -1,0 +1,11 @@
+1. Error / Exception Handling $ Logging
+2. php ini settings
+3. htaccess / apache settings
+4. router
+5. config settings etc.
+6. css sass reset, variables, mixins
+7. views
+8. js animations & ajax
+9. git ignore vendor, env, storage files, resources files
+
+10. deploy
