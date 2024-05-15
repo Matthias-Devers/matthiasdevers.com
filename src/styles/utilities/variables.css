@@ -1,0 +1,61 @@
+/* ========================================================================== */
+/* Variables */
+/* ========================================================================== */
+
+/* -------------------------------------------------------------------------- */
+/* Root */
+
+:root {
+    --font-primary: "Inter", sans-serif;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    --font-size-extra-small: 0.75rem;
+    --font-size-small: 0.875rem;
+    --font-size-regular: 1rem;
+    --font-size-medium: 1.25rem;
+    --font-size-large: 1.5rem;
+    --font-size-extra-large: 2rem;
+    --font-line-height-single: 1;
+    --font-line-height-extra-small: 1.125;
+    --font-line-height-small: 1.25;
+    --font-line-height-regular: 1.4;
+    --font-line-height-medium: 1.5;
+    --font-line-height-large: 1.75;
+    --font-line-height-double: 2;
+    --font-letter-spacing: 0.01rem;
+    --grid-small: 600px;
+    --grid-medium: 800px;
+    --grid-large: 1200px;
+    --transition-timing: 0.15s;
+    --transition-timing-function: ease-in-out;
+    --backdrop-filter: blur(30px);
+
+    --color-gray-14: rgba(10, 10, 10, 1);
+    --color-gray-13: rgba(17, 17, 17, 1);
+    --color-gray-12: rgba(25, 25, 25, 1);
+    --color-gray-11: rgba(34, 34, 34, 1);
+    --color-gray-10: rgba(42, 42, 42, 1);
+    --color-gray-09: rgba(49, 49, 49, 1);
+    --color-gray-08: rgba(58, 58, 58, 1);
+    --color-gray-07: rgba(72, 72, 72, 1);
+    --color-gray-06: rgba(96, 96, 96, 1);
+    --color-gray-05: rgba(110, 110, 110, 1);
+    --color-gray-04: rgba(123, 123, 123, 1);
+    --color-gray-03: rgba(180, 180, 180, 1);
+    --color-gray-02: rgba(238, 238, 238, 1);
+    --color-gray-01: rgba(255, 255, 255, 1);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Light Mode */
+
+.light {
+    --theme-color-12: var(--color-gray-12);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Dark Mode */

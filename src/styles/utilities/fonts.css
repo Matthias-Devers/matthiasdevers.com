@@ -1,0 +1,16 @@
+/* ========================================================================== */
+/* Fonts */
+/* ========================================================================== */
+
+/* -------------------------------------------------------------------------- */
+/* Inter */
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300 400 500 600 700 800;
+    font-display: optional;
+    src: url("/fonts/Inter.woff2") format("woff2"),
+         url("/fonts/Inter.woff") format("woff"),
+         url("/fonts/Inter.ttf") format("truetype");
+}
