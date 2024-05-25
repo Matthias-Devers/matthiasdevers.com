@@ -7,12 +7,11 @@
 
 :root {
     --font-primary: "Inter", sans-serif;
-    --font-weight-light: 300;
+    --font-handwritten: "RockSalt", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
-    --font-weight-bold: 700;
-    --font-weight-extra-bold: 800;
     --font-size-extra-small: 0.75rem;
     --font-size-small: 0.875rem;
     --font-size-regular: 1rem;
@@ -26,54 +25,38 @@
     --font-line-height-medium: 1.5;
     --font-line-height-large: 1.75;
     --font-line-height-double: 2;
-    --font-letter-spacing: 0.01rem;
-    --grid-small: 600px;
-    --grid-medium: 800px;
-    --grid-large: 1200px;
+    --font-letter-spacing-small: 0.01rem;
+    --font-letter-spacing-medium: 0.02rem;
+    --font-letter-spacing-big: 0.03rem;
     --transition-timing: 0.15s;
     --transition-timing-function: ease-in-out;
-    --backdrop-filter: blur(30px);
-
-    --color-gray-14: rgba(10, 10, 10, 1);
-    --color-gray-13: rgba(17, 17, 17, 1);
-    --color-gray-12: rgba(25, 25, 25, 1);
-    --color-gray-11: rgba(34, 34, 34, 1);
-    --color-gray-10: rgba(42, 42, 42, 1);
-    --color-gray-09: rgba(49, 49, 49, 1);
-    --color-gray-08: rgba(58, 58, 58, 1);
-    --color-gray-07: rgba(72, 72, 72, 1);
-    --color-gray-06: rgba(96, 96, 96, 1);
-    --color-gray-05: rgba(110, 110, 110, 1);
-    --color-gray-04: rgba(123, 123, 123, 1);
-    --color-gray-03: rgba(180, 180, 180, 1);
-    --color-gray-02: rgba(238, 238, 238, 1);
-    --color-gray-01: rgba(255, 255, 255, 1);
+    --backdrop-filter: blur(24px);
+    --color-selection: rgba(145, 217, 255, 1);
+    --color-postit: rgba(255, 240, 162, 1);
+    --color-marker: rgba(255, 218, 155, 1);
+    --color-membrane: rgba(16, 16, 16, 0.8);
+    --color-neutral-07: rgba(16, 16, 16, 1);
+    --color-neutral-06: rgba(33, 33, 33, 1);
+    --color-neutral-05: rgba(51, 51, 51, 1);
+    --color-neutral-04: rgba(85, 85, 85, 1);
+    --color-neutral-03: rgba(155, 155, 155, 1);
+    --color-neutral-02: rgba(238, 238, 238, 1);
+    --color-neutral-01: rgba(255, 255, 255, 1);
 }
 
 /* -------------------------------------------------------------------------- */
-/* Light Mode */
+/* Default theme */
 
-.light {
-    --theme-color-1: var(--color-gray-12);
-    --theme-color-2: var(--color-gray-11);
-    --theme-color-3: var(--color-gray-10);
-    --theme-color-4: var(--color-gray-09);
-    --theme-color-5: var(--color-gray-08);
-    --theme-color-6: var(--color-gray-07);
-    --theme-color-7: var(--color-gray-06);
-    --theme-color-8: var(--color-gray-05);
-}
-
-/* -------------------------------------------------------------------------- */
-/* Dark Mode */
-
-.dark {
-    --theme-color-1: var(--color-gray-12);
-    --theme-color-2: var(--color-gray-11);
-    --theme-color-3: var(--color-gray-10);
-    --theme-color-4: var(--color-gray-09);
-    --theme-color-5: var(--color-gray-08);
-    --theme-color-6: var(--color-gray-07);
-    --theme-color-7: var(--color-gray-06);
-    --theme-color-8: var(--color-gray-05);
+.default {
+    --theme-color-selection: rgba(145, 217, 255, 1);
+    --theme-color-postit: rgba(255, 240, 162, 1);
+    --theme-color-marker: rgba(255, 218, 155, 1);
+    --theme-color-membrane: rgba(16, 16, 16, 0.8);
+    --theme-color-neutral-07: rgba(16, 16, 16, 1);
+    --theme-color-neutral-06: rgba(33, 33, 33, 1);
+    --theme-color-neutral-05: rgba(51, 51, 51, 1);
+    --theme-color-neutral-04: rgba(85, 85, 85, 1);
+    --theme-color-neutral-03: rgba(155, 155, 155, 1);
+    --theme-color-neutral-02: rgba(238, 238, 238, 1);
+    --theme-color-neutral-01: rgba(255, 255, 255, 1);
 }

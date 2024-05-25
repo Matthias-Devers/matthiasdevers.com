@@ -1,0 +1,5 @@
+.tag {
+    font-family: var(--font-handwritten);
+    font-size: var(--font-size-medium);
+    line-height: 1.1;
+}

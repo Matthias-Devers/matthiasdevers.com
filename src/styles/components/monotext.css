@@ -1,0 +1,14 @@
+.monotext {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-small);
+    line-height: 1;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    color: var(--theme-color-neutral-02);
+    margin: 0 auto 1.5rem auto;
+    max-width: fit-content;
+}
+
+.monotext__row {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,12 @@
+.title {
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-medium);
+    line-height: 1;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    color: var(--theme-color-neutral-01);
+    margin: 0 auto 3rem auto;
+    text-align: center;
+    max-width: fit-content;
+}

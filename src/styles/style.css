@@ -11,3 +11,9 @@
 
 /* -------------------------------------------------------------------------- */
 /* Components */
+
+@import "/components/footer.css";
+@import "/components/sections.css";
+@import "/components/title.css";
+@import "/components/tag.css";
+@import "/components/monotext.css";
