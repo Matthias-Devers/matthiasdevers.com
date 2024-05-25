@@ -13,6 +13,11 @@
     transform: rotate3D(1, 1, 1, -4deg);
 }
 
+#about {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
 #contacts a {
     transition: background-color var(--transition-timing) var(--transition-timing-function);
 }

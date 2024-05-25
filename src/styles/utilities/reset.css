@@ -224,3 +224,16 @@ template {
 [hidden] {
     display: none;
 }
+
+/*----------------------------------------------------------------------------*/
+/* Selection */
+
+::selection {
+    background-color: var(--color-postit);
+    color: var(--theme-color-neutral-07);
+}
+
+::-moz-selection {
+    background-color: var(--color-postit);
+    color: var(--theme-color-neutral-07);
+}
