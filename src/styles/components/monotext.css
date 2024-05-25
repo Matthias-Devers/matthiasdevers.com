@@ -1,4 +1,5 @@
 .monotext {
+    display: block;
     font-family: var(--font-mono);
     font-size: var(--font-size-small);
     line-height: 1;

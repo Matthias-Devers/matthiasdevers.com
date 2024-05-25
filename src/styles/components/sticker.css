@@ -1,0 +1,33 @@
+.sticker__membrane {
+    max-width: fit-content;
+    background-color: var(--theme-color-sticker-membrane);
+    backdrop-filter: var(--backdrop-filter);
+    padding: 0.5rem;
+    border-radius: 1.75rem;
+}
+
+.sticker__content {
+    position: relative;
+    overflow: hidden;
+    color: var(--theme-color-neutral-07);
+    background-color: var(--theme-color-neutral-01);
+    max-width: fit-content;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.sticker__content .monotext {
+    color: var(--theme-color-neutral-07);
+}
+
+.sticker__content .monotext:last-child,
+.sticker__content .monotext:last-child .monotext__row:last-child {
+    margin-bottom: 0;
+}
+
+#contacts .sticker__content {
+    background-image: url("../images/paper_texture_1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

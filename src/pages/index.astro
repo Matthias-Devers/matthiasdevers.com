@@ -1,81 +1,20 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Career from "../components/Career.astro";
+import Sticker from "../components/Sticker.astro";
+import Projects from "../components/Projects.astro";
+import Contacts from "../components/Contacts.astro";
+import Slogan from "../components/Slogan.astro";
 import Footer from "../components/Footer.astro";
 ---
 
 <Layout title="Welcome to Astro." description="This is my Description.">
     <div>
-        <section id="career">
-            <h1 class="title">Career</h1>
-            <div class="monotext">
-                <p class="monotext__row">2022 <---------------------> present</p>
-                <p class="monotext__row">Co-Founder, Web Developer, Designer</p>
-                <p class="monotext__row">plantanika</p>
-            </div>
-            <div class="monotext">
-                <p class="monotext__row">2017 <------------------------> 2022</p>
-                <p class="monotext__row">Web Developer, Designer</p>
-                <p class="monotext__row">Adh Devers</p>
-            </div>
-            <div class="monotext">
-                <p class="monotext__row">2014 <------------------------> 2017</p>
-                <p class="monotext__row">Design Assistant Apprenticeship</p>
-                <p class="monotext__row">Berufskolleg Glockenspitz Krefeld</p>
-            </div>
-        </section>
-        <section id="sticker">
-            <img src="/images/chickenbomb_sticker.webp" alt="Chickenbomb sticker." width="640" height="640" />
-            <p class="tag">Chicken<br />Bomb</p>
-        </section>
-        <section id="projects">
-            <h1 class="title">Projects</h1>
-            <div class="monotext">
-                <p class="monotext__row">2024 ------------------- coming soon</p>
-                <p class="monotext__row">Web Hub & Web Widgets</p>
-                <p class="monotext__row">Orynic</p>
-            </div>
-            <div class="monotext">
-                <p class="monotext__row">PostgreSQL - Supabase - Next.js</p>
-                <p class="monotext__row">------------------------------------</p>
-                <p class="monotext__row">
-                    <a href="www.google.com">| Visit ..... -&gt; </a>
-                    <a href="www.github.com">| Github ..... -&gt; |</a>
-                </p>
-                <p class="monotext__row">------------------------------------</p>
-            </div>
-            <div class="monotext">
-                <p class="monotext__row">2022 ------------------- coming soon</p>
-                <p class="monotext__row">Wholesaling & marketing</p>
-                <p class="monotext__row">plantanika</p>
-            </div>
-            <div class="monotext">
-                <p class="monotext__row">MySQL - Laravel - React - PostCSS</p>
-                <p class="monotext__row">------------------------------------</p>
-                <p class="monotext__row">
-                    <a href="www.google.com">| Visit ..... -&gt; </a>
-                    <a href="www.github.com">| Github ..... -&gt; |</a>
-                </p>
-                <p class="monotext__row">------------------------------------</p>
-            </div>
-            <div class="monotext">
-                <p class="monotext__row">2018 -------------------------------</p>
-                <p class="monotext__row">Horticulture marketing</p>
-                <p class="monotext__row">ADH Devers</p>
-            </div>
-            <div class="monotext">
-                <p class="monotext__row">PHP - SASS - TypeScript</p>
-                <p class="monotext__row">------------------------------------</p>
-                <p class="monotext__row">
-                    <a href="www.google.com">| Visit ..... -&gt; </a>
-                    <a href="www.github.com">| Github ..... -&gt; |</a>
-                </p>
-                <p class="monotext__row">------------------------------------</p>
-            </div>
-        </section>
-
-        <section id="slogan">
-            <p class="tag">Built to last</p>
-        </section>
+        <Career />
+        <Sticker />
+        <Projects />
+        <Contacts />
+        <Slogan />
         <Footer />
     </div>
 </Layout>

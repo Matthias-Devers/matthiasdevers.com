@@ -1,0 +1,4 @@
+.markered {
+    display: inline-block;
+    background-color: var(--theme-color-marker);
+}

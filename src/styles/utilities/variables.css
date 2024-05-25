@@ -35,6 +35,7 @@
     --color-postit: rgba(255, 240, 162, 1);
     --color-marker: rgba(255, 218, 155, 1);
     --color-membrane: rgba(16, 16, 16, 0.8);
+    --color-sticker-membrane: rgba(229, 229, 229, 0.5);
     --color-neutral-07: rgba(16, 16, 16, 1);
     --color-neutral-06: rgba(33, 33, 33, 1);
     --color-neutral-05: rgba(51, 51, 51, 1);
@@ -52,6 +53,7 @@
     --theme-color-postit: rgba(255, 240, 162, 1);
     --theme-color-marker: rgba(255, 218, 155, 1);
     --theme-color-membrane: rgba(16, 16, 16, 0.8);
+    --theme-color-sticker-membrane: rgba(229, 229, 229, 0.5);
     --theme-color-neutral-07: rgba(16, 16, 16, 1);
     --theme-color-neutral-06: rgba(33, 33, 33, 1);
     --theme-color-neutral-05: rgba(51, 51, 51, 1);
