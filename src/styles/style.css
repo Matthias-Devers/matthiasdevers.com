@@ -3,11 +3,11 @@
 /* ========================================================================== */
 
 /* -------------------------------------------------------------------------- */
-/* Utilities */
+/* Essentials */
 
-@import "/utilities/fonts.css";
-@import "/utilities/variables.css";
-@import "/utilities/reset.css";
+@import "/essentials/fonts.css";
+@import "/essentials/variables.css";
+@import "/essentials/reset.css";
 
 /* -------------------------------------------------------------------------- */
 /* Components */
