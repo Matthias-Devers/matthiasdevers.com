@@ -1,5 +1,7 @@
 ---
+import Canvas from "../components/essentials/Canvas";
 import Header from "../components/essentials/Header.astro";
+import CookieNotice from "../components/essentials/CookieNotice.astro";
 import Footer from "../components/essentials/Footer.astro";
 
 interface Props {
@@ -57,7 +59,9 @@ const pageTitle = Astro.url.pathname === "/" ? title : `${title} · Matthias Dev
     </head>
 
     <body>
+        <Canvas />
         <Header />
+        <CookieNotice />
         <main id={mainId}>
             <slot />
         </main>

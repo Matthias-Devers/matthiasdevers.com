@@ -1,22 +1,32 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import About from "../components/About.astro";
-import Career from "../components/Career.astro";
-import Sticker from "../components/stickers/ChickenBomb.sticker.astro";
-import Projects from "../components/Projects.astro";
-import Contacts from "../components/Contacts.astro";
-import Slogan from "../components/Slogan.astro";
-import Footer from "../components/essentials/Footer.astro";
+import InfoLabel from "../components/labels/Info.label.astro";
+import IntroductionLabel from "../components/labels/Introduction.label.astro";
+import AboutMonoblock from "../components/monoblocks/About.monoblock.astro";
+import CareerMonoblock from "../components/monoblocks/Career.monoblock.astro";
+import ChickenBombSticker from "../components/stickers/ChickenBomb.sticker.astro";
+import ProjectsMonoblock from "../components/monoblocks/Projects.monoblock.astro";
+import ContactsLabel from "../components/labels/Contacts.label.astro";
 ---
 
-<Layout title="Welcome to Astro." description="This is my Description.">
+<Layout title="Welcome to Astro." description="This is my Description." mainId="homepage">
     <div>
-        <About />
-        <Career />
-        <Sticker />
-        <Projects />
-        <Contacts />
-        <Slogan />
-        <Footer />
+        <section id="about">
+            <h1 class="title">About</h1>
+            <InfoLabel />
+            <IntroductionLabel />
+            <AboutMonoblock />
+            <h1 class="title">Career</h1>
+            <CareerMonoblock />
+            <ChickenBombSticker />
+        </section>
+        <section id="projects">
+            <h1 class="title">Projects</h1>
+            <ProjectsMonoblock />
+        </section>
+        <ContactsLabel />
+        <section id="slogan">
+            <p class="tag">Built to last</p>
+        </section>
     </div>
 </Layout>

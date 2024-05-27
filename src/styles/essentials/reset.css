@@ -24,8 +24,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-synthesis-weight: none;
-    color: var(--theme-color-neutral-02);
-    background-color: var(--theme-color-neutral-07);
+    color: var(--font-color-02);
+    background-color: var(--background-color);
     position: relative;
     z-index: 1;
     overflow-x: hidden;
@@ -229,11 +229,11 @@ template {
 /* Selection */
 
 ::selection {
-    background-color: var(--color-postit);
-    color: var(--theme-color-neutral-07);
+    background-color: var(--marker-background-color);
+    color: var(--marker-color);
 }
 
 ::-moz-selection {
-    background-color: var(--color-postit);
-    color: var(--theme-color-neutral-07);
+    background-color: var(--marker-background-color);
+    color: var(--marker-color);
 }

@@ -2,49 +2,16 @@
 /* Sections */
 /* ========================================================================== */
 
-/* -------------------------------------------------------------------------- */
-/* Title */
-
-#sticker {
-    text-align: center;
-    margin: 4rem 0;
-}
-
-#sticker img {
-    transform: rotate(6deg);
-}
-
-#contacts {
-    max-width: fit-content;
-    margin: 6rem auto 3rem;
-    transform: rotate3D(1, 1, 1, -4deg);
-}
-
 #about {
     margin-top: 8rem;
     margin-bottom: 5rem;
 }
 
-#contacts a {
-    transition: background-color var(--transition-timing) var(--transition-timing-function);
-}
-
-#contacts a:hover {
-    background-color: var(--theme-color-marker);
-}
-
-#contacts a:active {
-    background-color: var(--theme-color-marker);
+#monoblock-about {
+    margin-bottom: 5rem;
 }
 
 #slogan {
     max-width: fit-content;
     margin: 0 auto 2.5rem auto;
-}
-
-#contacts .tag {
-    position: absolute;
-    bottom: 4.75rem;
-    right: 0.5rem;
-    transform: rotate(-7deg);
 }

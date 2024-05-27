@@ -1,3 +1,7 @@
+/* ========================================================================== */
+/* Monoblock */
+/* ========================================================================== */
+
 .monoblock {
     display: block;
     font-family: var(--font-mono);
@@ -5,16 +9,32 @@
     line-height: 1;
     letter-spacing: 0.02rem;
     text-transform: uppercase;
-    color: var(--theme-color-neutral-02);
+    color: var(--monoblock-color);
     margin: 0 auto 1.5rem auto;
     max-width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
+.monoblock a {
+    transition:
+        color var(--transition-timing) var(--transition-timing-function),
+        background-color var(--transition-timing) var(--transition-timing-function);
+}
+
+.monoblock a:hover {
+    color: var(--marker-color);
+    background-color: var(--marker-background-color);
+}
+
+.monoblock a:active {
+    color: var(--marker-color);
+    background-color: var(--marker-background-color);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Monoblock row */
 
 .monoblock__row {
     margin-bottom: 0.5rem;
-}
-
-.markered {
-    display: inline-block;
-    background-color: var(--theme-color-marker);
 }

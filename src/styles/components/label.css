@@ -1,0 +1,202 @@
+/* ========================================================================== */
+/* Label */
+/* ========================================================================== */
+
+.label {
+    max-width: fit-content;
+    backdrop-filter: var(--backdrop-filter);
+    padding: 0.5rem;
+    border-radius: 1.75rem;
+}
+
+.label__content {
+    position: relative;
+    overflow: hidden;
+    max-width: fit-content;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.label__headline {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.3;
+    margin-top: 2.5rem;
+}
+
+.label__title {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
+    line-height: 1.25;
+    letter-spacing: 0.02rem;
+    text-align: center;
+}
+
+.label__emphasis {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Label: Contacts */
+
+#label-contacts {
+    background-color: var(--contacts-label-membrane-color);
+    max-width: fit-content;
+    margin: 5rem auto 2.5rem auto;
+    transform: rotate3d(1, 1, 1, -5deg);
+}
+
+#label-contacts .monoblock {
+    color: var(--contacts-label-color);
+}
+
+#label-contacts .monoblock:last-child,
+#label-contacts .monoblock:last-child .monoblock__row:last-child {
+    margin-bottom: 0;
+}
+
+#label-contacts .tag {
+    color: var(--contacts-label-color);
+    position: absolute;
+    bottom: 4.75rem;
+    right: 0.5rem;
+    transform: rotate(-7deg);
+}
+
+#label-contacts .label__content {
+    background-color: var(--contacts-label-background-color);
+    background-image: url("../images/textures/paper_texture_1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#label-contacts .markered {
+    display: inline-block;
+    color: var(--contacts-label-marker-color);
+    background-color: var(--contacts-label-marker-background-color);
+}
+
+#label-contacts a {
+    transition:
+        background-color var(--transition-timing) var(--transition-timing-function),
+        color var(--transition-timing) var(--transition-timing-function);
+}
+
+#label-contacts a:hover {
+    color: var(--contacts-label-marker-color);
+    background-color: var(--contacts-label-marker-background-color);
+}
+
+#label-contacts a:active {
+    color: var(--contacts-label-marker-color);
+    background-color: var(--contacts-label-marker-background-color);
+}
+
+#label-contacts ::selection {
+    color: var(--contacts-label-marker-color);
+    background-color: var(--contacts-label-marker-background-color);
+}
+
+#label-contacts ::-moz-selection {
+    color: var(--contacts-label-marker-color);
+    background-color: var(--contacts-label-marker-background-color);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Label: Info */
+
+#label-info {
+    background-color: var(--info-label-membrane-color);
+    max-width: fit-content;
+    margin: 0 auto;
+    transform: rotate3D(1, 1, 1, 8deg);
+    position: relative;
+    z-index: 1;
+}
+
+#label-info .label__content {
+    color: var(--info-label-color);
+    background-color: var(--info-label-background-color);
+    background-image: url("../images/textures/paper_texture_2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#label-info ::selection {
+    color: var(--info-label-marker-color);
+    background-color: var(--info-label-marker-background-color);
+}
+
+#label-info ::-moz-selection {
+    color: var(--info-label-marker-color);
+    background-color: var(--info-label-marker-background-color);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Label: Introduction */
+
+#label-introduction {
+    background-color: var(--intro-label-membrane-color);
+    max-width: fit-content;
+    margin: 0 auto 5rem auto;
+    position: relative;
+    z-index: 0;
+}
+
+#label-introduction p {
+    margin-bottom: 1.5rem;
+}
+
+#label-introduction .label__title:first-child {
+    margin-right: 1.5rem;
+}
+
+#label-introduction .label__content {
+    color: var(--intro-label-color);
+    background-image: url("../images/textures/paper_texture_3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 25rem;
+    background-color: var(--intro-label-background-color);
+    background-blend-mode: multiply;
+}
+
+#remind {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    transform: rotate(-6deg);
+}
+
+#maddes {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    transform: rotate(-10deg);
+}
+
+#label-introduction .tag {
+    color: var(--intro-label-color);
+}
+
+#label-introduction ::selection {
+    color: var(--intro-label-marker-color);
+    background-color: var(--intro-label-marker-background-color);
+}
+
+#label-introduction ::-moz-selection {
+    color: var(--intro-label-marker-color);
+    background-color: var(--intro-label-marker-background-color);
+}

@@ -2,9 +2,6 @@
 /* Title */
 /* ========================================================================== */
 
-/* -------------------------------------------------------------------------- */
-/* Title */
-
 .title {
     font-size: var(--font-size-regular);
     font-weight: var(--font-weight-medium);
@@ -12,7 +9,7 @@
     letter-spacing: 0.02rem;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
-    color: var(--theme-color-neutral-01);
+    color: var(--font-color-01);
     margin: 0 auto 3rem auto;
     text-align: center;
     max-width: fit-content;
