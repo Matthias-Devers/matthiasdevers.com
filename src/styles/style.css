@@ -10,6 +10,11 @@
 @import "/essentials/reset.css";
 
 /* -------------------------------------------------------------------------- */
+/* Themes */
+
+@import "/themes/default.theme.css";
+
+/* -------------------------------------------------------------------------- */
 /* Components */
 
 @import "/components/footer.css";

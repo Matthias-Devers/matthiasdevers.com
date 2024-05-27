@@ -1,4 +1,4 @@
-.monotext {
+.monoblock {
     display: block;
     font-family: var(--font-mono);
     font-size: var(--font-size-small);
@@ -10,6 +10,11 @@
     max-width: fit-content;
 }
 
-.monotext__row {
+.monoblock__row {
     margin-bottom: 0.5rem;
+}
+
+.markered {
+    display: inline-block;
+    background-color: var(--theme-color-marker);
 }
